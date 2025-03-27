@@ -4,13 +4,13 @@
 	--accent1-color: #4708b3;
 	--accent2-color: #13c5e4;
 	--font-family: 'Montserrat', 'Open Sans' sans-serif;
-	--heading-font: 'Archivo Black' ;
+	--heading-font: 'Archivo Black';
 	}
 	
 	/* Apply general styling */
 	nav {
 	display: flex;
-	display: flex;
+	display: in-line float;
 	padding: 10px 5px;
 	background-color: var(--primary-color);
 	color: var(--secondary-color);
@@ -44,7 +44,7 @@
 	
 	body {
 	font-family: var(--font-family);
-	
+	background-color: #ecc2f3;
 	}
 	
 	h1 {
@@ -63,7 +63,7 @@
 	font-weight: bolder;
 	}
 	
-	h3 {
+	h2 {
 	font-size: 20px;
 	color: var(--accent1-color);
 	font-family: var(--font-family);
