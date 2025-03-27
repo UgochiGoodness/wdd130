@@ -1,3 +1,4 @@
+/* Root CSS Variables for colours */
 :root {
 	--primary-color: #917505;
 	--secondary-color:#ecc2f3;
@@ -25,11 +26,6 @@
 	color: var(--accent1-color);
 	}
 	
-	
-	nav a:hover {
-	color: var(--accent2-color);
-	}
-	
 	.sociallinks {
 	text-decoration: none;
 	color: var(--accent1-color);
@@ -47,13 +43,52 @@
 	background-color: #ecc2f3;
 	}
 	
-	h1 {
-	font-size: 30px;
+	.hero {
+		position: relative;
+		width: 100%;
+		height: 500%;
+		overflow: hidden;
+	}
+	.hero-image{
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+
+	.hero h1 {
+    position: absolute;
+	top: 10%;
+	font-size: 3em;
 	color: var(--accent1-color);
 	font-family: var(--font-family);
-    position: relative;
-	font-weight: lighter;
 	background-color: #917505;
+	}
+
+	article {
+		position: absolute;
+		top:50%; /* Center the article vertically */
+		left: 50px; /* Center the article horizontally */
+		background-color: rgba(0, 0, 0, 0.5); /* Semi transparent background */
+		padding: 20px;
+		color: var(--accent1-color)
+		max-width: 800px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+		display: flex; /* Flexbox to position content */
+        align-items: center; /* Align items vertically*/
+		justify-content: space-between; /* Space between image and text */
+	}
+
+	article img {
+		width: 150px;
+		height: auto;
+		margin-left: 20px;
+	}
+
+	article p {
+		font-size: 1.1em;
+		line-height: 1.6;
+		max-width: 600px;
+		color: #ecc2f3;
 	}
 	
 	h2 {
@@ -89,6 +124,9 @@
 	
 	.hero h1 {
 	position: absolute;
+	font-family: var(--font-family);
+	font-size: 3em;
+	color:#4708b3
 	}
 	
 	
@@ -102,5 +140,6 @@
 	margin-bottom: 20px;
 	color: var(--accent1-color);
 	font-family: var(--font-family);
-	text-align: justify;
+	text-align: center;
+	padding: 10px 0;
 	}
