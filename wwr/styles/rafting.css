@@ -8,35 +8,34 @@
 	--heading-font: 'Archivo Black';
 	}
 	
-	/* Apply general styling */
+	header { 
+		margin: 1rem auto;
+		display: grid;
+		grid-template-columns: 120px 1fr 1fr;
+		align-items: center;
+		border-bottom: 1px solid #ccc;
+		max-width: 1000px;
+		}	
+
+		/* Apply general styling */
 	nav {
-	display: flex;
-	display: in-line float;
-	padding: 10px 5px;
-	background-color: var(--primary-color);
-	color: var(--secondary-color);
-	margin-bottom: 10px;
-	font-family: var(--font-family)
-	}
-	
-	nav a {
-	margin-right: 40px;
-	color: var(--primary-color);
-	text-decoration: none;
-	color: var(--accent1-color);
-	}
-	
-	.sociallinks {
-	text-decoration: none;
-	color: var(--accent1-color);
-	align-items: center;
-	align-content: center;
-	}
-	
-	.sociallinks img {
-	align-content: center;
-	
-	}
+		display: in-line float;
+		padding: 10px 5px;
+		color: var(--secondary-color);
+		margin-bottom: 10px;
+		font-family: var(--font-family)
+		}
+		
+		nav a {
+		margin-right: 40px;
+		color: var(--primary-color);
+		text-decoration: none;
+		color: var(--accent1-color);
+		}
+
+		nav a:hover {
+			color: var(--accent1-color)
+		}
 	
 	body {
 	font-family: var(--font-family);
@@ -58,6 +57,7 @@
 	.hero h1 {
     position: absolute;
 	top: 10%;
+	left: 10%
 	font-size: 3em;
 	color: var(--accent1-color);
 	font-family: var(--font-family);
@@ -66,8 +66,8 @@
 
 	article {
 		position: absolute;
-		top:50%; /* Center the article vertically */
-		left: 50px; /* Center the article horizontally */
+		top:90%; /* Center the article vertically */
+		left: 20%; /* Center the article horizontally */
 		background-color: rgba(0, 0, 0, 0.5); /* Semi transparent background */
 		padding: 20px;
 		color: var(--accent1-color)
@@ -81,7 +81,7 @@
 	article img {
 		width: 150px;
 		height: auto;
-		margin-left: 20px;
+		margin-left: 50px;
 	}
 
 	article p {
@@ -129,7 +129,21 @@
 	color:#4708b3
 	}
 	
-	
+	figure {
+		text-align: center;
+	}
+
+	figure img {
+		width: 100%;
+		height: auto;
+		border-radius: 10px;
+	}
+
+	figcaption {
+		margin-top: 10px;
+		font-weight: bold;
+		color: var(--accent1-color)
+	}
 	
 	footer {
 	background-color: var(--primary-color);
@@ -143,3 +157,15 @@
 	text-align: center;
 	padding: 10px 0;
 	}
+
+	.sociallinks {
+		text-decoration: none;
+		color: var(--accent1-color);
+		align-items: center;
+		align-content: center;
+		}
+		
+		.sociallinks img {
+		align-content: center;
+		
+		}
