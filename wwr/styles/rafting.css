@@ -51,7 +51,7 @@
 	.hero {
 		position: relative;
 		width: 100%;
-		height: 900px;
+		height: 700px;
 		overflow: visible;
 	}
 
@@ -80,8 +80,8 @@
 		position: absolute;
 		display: flex; /* Flexbox to position content */
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-		top:90%; /* Center the article vertically */
-		left: 20%; /* Center the article horizontally */
+		top:50%; /* Center the article vertically */
+		left: 50%; /* Center the article horizontally */
 		align-items: center; /* Align items vertically*/
 		justify-content: space-between; /* Space between image and text */
 		background-color: rgba(0, 0, 0, 0.5); /* Semi transparent background */
