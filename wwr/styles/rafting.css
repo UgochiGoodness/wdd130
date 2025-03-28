@@ -77,7 +77,7 @@
 		position: absolute;
 		display: flex; /* Flexbox to position content */
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-		top:70%; /* Center the article vertically */
+		top:60%; /* Center the article vertically */
 		left: 25%; /* Center the article horizontally */
 		align-items: center; /* Align items vertically*/
 		justify-content: space-between; /* Space between image and text */
