@@ -1,7 +1,7 @@
 /* Root CSS Variables for colours */
 :root {
-  --primary-color: #917505;
-  --secondary-color: #ecc2f3;
+  --primary-color: #f1e1c6;
+  --secondary-color: #a68c6d;
   --accent1-color: navy;
   --accent2-color: #13c5e4;
   --font-family: "Montserrat", "Open Sans" sans-serif;
@@ -15,7 +15,7 @@ header {
   grid-template-rows: auto;
   gap: 20px;
   align-items: center;
-  background-color: #917505;
+  background-color: #f1e1c6;
   padding: 10px 20px;
 }
 
@@ -47,7 +47,7 @@ nav a:hover {
 /*Body Styling */
 body {
   font-family: var(--font-family);
-  background-color: #ecc2f3;
+  background-color: #a68c6d;
 }
 
 /* Hero Section Styling */
@@ -102,7 +102,7 @@ article p {
   font-size: 1.1em;
   line-height: 1.6;
   max-width: 600px;
-  color: #ecc2f3;
+  color: navy;
 }
 
 /* h2 styling */
@@ -210,7 +210,7 @@ footer {
   padding: 1rem;
   align-items: center;
   text-align: center;
-  background-color: #917505;
+  background-color: #f1e1c6;
 }
 
 footer nav a {
