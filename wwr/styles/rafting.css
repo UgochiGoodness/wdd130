@@ -5,7 +5,6 @@
   --accent1-color: navy;
   --accent2-color: #13c5e4;
   --font-family: "Montserrat", "Open Sans" sans-serif;
-  --heading-font: "Archivo Black";
 }
 
 /*Header Styling*/
@@ -32,7 +31,7 @@ nav ul {
 }
 
 nav ul li {
-  margin-left: 2opx;
+  margin-left: 20px;
 }
 
 nav ul li a {
@@ -121,6 +120,10 @@ h2 {
   font-weight: bolder;
 }
 
+#iframe {
+  border: 0;
+}
+
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -166,10 +169,13 @@ figcaption {
 
 /* Contact Form */
 .contact-form {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 1000 auto;
+  padding: 1 rem;
+  border: 1px solid rgb(0 0 0 / 0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: 00px;
+  margin: grid;
 }
 
 .contact-form input,

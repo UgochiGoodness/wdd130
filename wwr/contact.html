@@ -7,8 +7,11 @@
     <meta name="description" content="Get in touch with Splash Whitewater Rafting Adventures for inquires, reservation, or suggestions. Find our contact details, location on the map, and an easy-to-use form to reach us.">
         <meta name="author" content="Ugochi Goodness Ugorji">
         <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.google.com/specimen/Archivo+Black">
-        <link rel="preconnect" href="https://fonts.google.com/specimen/Open+Sans">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Monsterrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap">
+        <!--FontAwesome-->
+        <script src="https://kit.fontawesome.com/YOUR-FONT-AWESOME-KIT.js" crossorigin="anonymous"></script>
         <!--CSS Link-->
         <Link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -17,12 +20,10 @@
     <header>
         <img src="images/z-splash.png" alt="logo">
         <nav>
-            <ul>
-            <li><a href="index.html">Home</a></li>
-            <li></li><a href="about.html">About us</a></li>
-            <li></li><a href="trips.html">Trips</a></li>
-            <li></li><a href="contact.html">Contact us</a></li>
-            </ul>
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact us</a>
         </nav>
     </header>
     <!--Main Content-->
@@ -54,7 +55,8 @@
                 <img src="images/employee3.jpg"  alt="Employee 3">
                 <p>Dean Mike - Tour Manager</p>
             </div>
-        </section class="Contact Form">
+        </section>
+        <section class="Contact Form">
         <h4>Get In Touch</h4>
         <form>
             <label for="fullname">Full Name:</label>
@@ -65,13 +67,13 @@
 
            <div>
             <label for="purpose">Purpose of Message:</label>
-                <input type="radio" id="general" name="purpose" value="General Inquiry">
+                <input type="radio" id="general" name="general" value="General Inquiry">
                 <label for="general">General Inquiry</label>
 
-                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                <input type="radio" id="reservation" name="reservation" value="Reservation Question">
                 <label for="reservation">Reservation Question</label>
 
-                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                <input type="radio" id="suggestion" name="suggestion" value="Website Suggestion">
                 <label for="suggestion">Website Suggestion</label>
             </div>
 
@@ -84,11 +86,11 @@
             </div>
 
             <button type="submit" class="submit button">Submit Your Inquiry</button>
+        </section>
         </form>
     </main>
     <!-- Footer section -->
     <footer>
-        <p>©️2025 👌 Splash Whitewater Rafting 👌 Ugochi Goodness Ugorji</p>
         <!-- Link to the Wireframe Image -->
          <p><a href="contact-wireframe.png" target="_blank">View Contact Us Wireframe</a></p>
         <nav class="sociallinks">
